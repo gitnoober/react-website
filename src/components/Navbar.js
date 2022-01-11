@@ -78,3 +78,9 @@ function Navbar() {
 }
 
 export default Navbar;
+
+
+//Notes - 
+// instead of an a tag just use the Link tag
+// when you click the menu icon it basically switches from 'fas fa-times' to 'fas fa-bars' on click, it executes handleclick, which just reverse the click from true to false or false to true
+// when you click something from the navmenu you essentially want the navmenu to disappear
