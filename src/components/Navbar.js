@@ -30,7 +30,7 @@ function Navbar() {
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             TRVL
-            <i class='fab fa-typo3' />
+            <i className='fab fa-typo3' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -84,3 +84,4 @@ export default Navbar;
 // instead of an a tag just use the Link tag
 // when you click the menu icon it basically switches from 'fas fa-times' to 'fas fa-bars' on click, it executes handleclick, which just reverse the click from true to false or false to true
 // when you click something from the navmenu you essentially want the navmenu to disappear
+// useeffect - needed for not reloading the page multiple times
