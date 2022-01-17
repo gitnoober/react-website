@@ -72,5 +72,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 <hr></hr>
 
 
-# **Netlify Link:**
-`https://naughty-lichterman-8fb1de.netlify.app/`
+# Netlify Link :
+     https://naughty-lichterman-8fb1de.netlify.app/
+    
